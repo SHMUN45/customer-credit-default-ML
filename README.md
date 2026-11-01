@@ -21,3 +21,9 @@ Look at data/README.md for how to get all the data
 2. Open and run in this order:
    1. notebooks/01_data_audit.ipynb (This audits the dataset, checking for missing values, duplicates and outliers)
    2. notebooks/02_baseline.ipynb (Preprocessing, cleans the data, does the stratified train/validation/test split, builds the preprocessing pipeline, adds majority class baseline and cost metric)
+
+## Repo
+https://github.com/SHMUN45/customer-credit-default-ML
+
+# Assistance declaration
+All work submitted is my own, I used Claude to help me brainstorm and understand the concepts and problems I dealt with.
