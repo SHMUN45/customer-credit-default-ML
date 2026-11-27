@@ -21,6 +21,9 @@ Look at data/README.md for how to get all the data
 - data/ - data download instructions (data not included)
 - requirements.txt - package versions
 - README.md - this file
+- MODEL_CARD.md - the intended use, risks and monitoring
+- DATA_STATEMENT.md - data source, exclusions and the limits
+- CHANGELOG.md - my key decisions and changes over the project
 
 ## Setup(Python) - 3.12.10
 1. Clone the repo
