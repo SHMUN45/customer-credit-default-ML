@@ -2,12 +2,25 @@
 
 CT4101 ML Project Portfolio, University of Galway
 
-## Can a classification model use a clients last 6 months of payments and details to predict if the client defaults next months payment? And what threshold ensures the banks cost is as low as possible, as missing a defaulter costs more money than falsely flagging a reliable customer?
+## Question
+Can a classification model use a clients last 6 months of payments and details to predict if the client defaults next months payment? And what threshold ensures the banks cost is as low as possible, as missing a defaulter costs more money than falsely flagging a reliable customer?
+
+## Headline Findings
+- Best model: Random Forest at threshold of 0.35 (tuned on validation set)
+- Test set: caught 79% of defaulters, about 2 false alarms per defaulter caught, roughly half the baselines cost
+- Fairness: Similar recall across groups, false positive rates differ by up to about 10 percentage points
+- My Reccomendation: Flag customers for a human to review, don't refuse credit automatically
 
 ## The Dataset
 Default of Credit Card Clients (UCI #350), Yeh (2009), CC BY 4.0
 DOI: https://doi.org/10.24432/C55S3H
 Look at data/README.md for how to get all the data
+
+## Repo structure
+- notebooks/ - the 4 analysis notebooks(run in order)
+- data/ - data download instructions (data not included)
+- requirements.txt - package versions
+- README.md - this file
 
 ## Setup(Python) - 3.12.10
 1. Clone the repo
