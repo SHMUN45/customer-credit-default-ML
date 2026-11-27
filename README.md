@@ -24,9 +24,9 @@ Look at data/README.md for how to get all the data
 
 ## Setup(Python) - 3.12.10
 1. Clone the repo
-2. Make a virtual environment; python -m venv <pathname>
-3. Activate: <pathname>\Scripts\activate
-4. Install all packages: pip install -r requirements.txt
+2. Make a virtual environment; `python -m venv venv`
+3. Activate: `venv\Scripts\activate`
+4. Install all packages: `pip install -r requirements.txt`
 5. Download the dataset into data/default of credit card clients.xls
 
 ## Run
